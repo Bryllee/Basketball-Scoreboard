@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+        background: #0C4A6E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;                                               
+}
+
+@font-face {
+    src: url("font/Suissnord.otf");
+    font-family: freefont;
+}
+
+@font-face {
+    src: url("font/CursedTimerULiL.ttf");
+    font-family: freefont2;
+}
+
+.title {
+    font-family: freefont;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 0 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #F94F6D;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: freefont2;
+    margin-top: -5px;
+}
+
+.points-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -10px;  
+}
+.points-guest {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -10px;
+}
+
+.score-points {
+    font-family: freefont2;
+    background: #0C4A6E;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    padding: 10px 10px;
+    
+}
+
+#reset-count {
+    font-family: freefont;
+    width: 150px;
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    background: #0C4A6E;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    
+}
